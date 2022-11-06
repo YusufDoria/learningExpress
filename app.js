@@ -8,3 +8,5 @@ readFile('./content/first.txt','utf8', (err, result) => {
     const first = result;
     readFile('./content/second.txt', 'utf8')
 })
+
+console.log('test');
